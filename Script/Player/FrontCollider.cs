@@ -1,0 +1,27 @@
+using UnityEngine;
+
+namespace Choi
+{
+    public class FrontCollider : MonoBehaviour
+    {
+        public Player player;
+        [SerializeField] bool isWall = false;
+
+
+        private void OnTriggerStay2D(Collider2D other)
+        {
+            isWall = true;
+
+            if (other.CompareTag("Wall"))
+                player.SetFrontBlocked(true);
+        }
+
+        private void OnTriggerExit2D(Collider2D other)
+        {
+            isWall = false;
+
+            if (other.CompareTag("Wall"))
+                player.SetFrontBlocked(false);
+        }
+    }
+}
