@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a2f529ade34b9c6489a639703ca4cca0
+timeCreated: 1605731425
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232615
+  packageName: Free 1 Bit Forest
+  packageVersion: 1.0
+  assetPath: Assets/Free 1 Bit Forest/Scenes/tiles/Sets/Tileset/Tileset_37.asset
+  uploadId: 525591
